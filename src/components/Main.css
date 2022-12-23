@@ -1,0 +1,47 @@
+.main{
+    height: 600px;
+    width: 100%;
+    /* background-color:grey; */
+    display: flex;
+}
+.left{
+    height: 600px;
+    width: 50%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 300px;
+    width: 50%;
+    background-color: aliceblue;
+}
+.card img{
+    height: 300px;
+    width: 100%;
+}
+.right{
+    height: 600px;
+    width: 50%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.right h1{
+    font-size: 32px;
+    color: black;
+}
+.right p{
+    font-size: 22px;
+    color: black;
+}
+.right button{
+    height: 30px;
+    width: 150px;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+}
